@@ -10,9 +10,9 @@
 	</properties>
 	<url>http://dev.bukkit.org/server-mods/redstoneclockdetector</url>
 	<repositories>
-	       <repository>
-			<id>bukkit-repo</id>
-			<url>http://repo.bukkit.org/content/groups/public</url>
+		<repository>
+			<id>spigot-repo</id>
+			<url>https://hub.spigotmc.org/nexus/content/groups/public</url>
 		</repository>
 	</repositories>
 	<build>
@@ -52,7 +52,9 @@
 		<dependency>
 			<groupId>org.bukkit</groupId>
 			<artifactId>bukkit</artifactId>
-			<version>1.2.4-R1.0</version>
+			<version>1.8.3-R0.1-SNAPSHOT</version>
+			<type>jar</type>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
